@@ -1,0 +1,26 @@
+$BlockExplorerAPILink = "https://api.blockcypher.com/v1/btc/main/tfxs/".$TxID."?limit=50&includeHex=true"; // DO NOT EDIT
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+transactions/{seTxID}/{heTxID}.txt -> {seTxID}-{heTxID}
+transactions/{seTxID}/{seTxID}-{buyerID}.txt -> {buyerID} - {buyer_email}
+transactions/{seTxID}/{seTxID}-{sellerID}.txt -> {sellerID} - {seller_email}
+transactions/{seTxID}/seller_email.txt -> {seller_email}
+transactions/{seTxID}/buyer_email.txt -> {buyer_email}
+transactions/{seTxID}/product_name.txt -> {product_name}
+transactions/{seTxID}/product_desc.txt -> {product_desc}
+transactions/{seTxID}/product_price.txt -> {product_price}
+transactions/{seTxID}/payout_addr.txt -> {btc_address}
+transactions/{seTxID}/fees.txt -> {who_pays_fees}
+transactions/{seTxID}/chat.txt -> {chat_log}
+transactions/{seTxID}/time.txt -> {time_start}
+transactions/{seTxID}/time_d.txt -> {time_start_only_date}
+transactions/{seTxID}/deposit_status.txt -> deposit completed, but not ready
+transactions/{seTxID}/deposit_ready.txt -> deposit ready
+transactions/{seTxID}/product_upload.txt -> product uploaded by the seller
+transactions/{seTxID}/human.txt -> admin message
+transactions/{seTxID}/message_seller.txt -> seller message on the files
+transactions/{seTxID}/review.txt -> review from the user
+transactions/{seTxID}/file_name.txt -> file download link
+transactions/{seTxID}/escrowed.txt -> seller withdrawn

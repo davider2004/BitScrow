@@ -1,0 +1,2 @@
+# BitScrow
+Bitcoin escrow services
